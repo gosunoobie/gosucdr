@@ -2,8 +2,8 @@ export default defineNuxtConfig({
   devServer: {
     port: 5173,
   },
-  generate: {
-    routes: ["/blog/**"],
+  routeRules: {
+    "/blog/**": { isr: true },
   },
   modules: ["@pinia/nuxt"],
   devtools: { enabled: true },
