@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./entry.Dr7ViP7e.js";const s={},c={class:"font-semibold text-green-500 text-xl"};function n(r,_){return o(),t("h2",c,"this is the home")}const i=e(s,[["render",n]]);export{i as default};
